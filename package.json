@@ -1,6 +1,6 @@
 {
   "name": "linux-lab",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "linux-lab help you practise linux commands via a set of exercises.",
   "main": "index.js",
   "scripts": {

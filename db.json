@@ -182,7 +182,7 @@
     },
     {
       "difficulty": "medium",
-      "title": "输入一个命令，一次在 tmp 目录下创建路径为 test/t1/t 的文件夹（即使路径中的某些目录尚不存在）：\n",
+      "title": "输入一个命令，一次在 tmp 目录下创建路径为 test/t1/t 的文件夹\n（即使路径中的某些目录尚不存在）：\n",
       "answer": "mkdir -p /tmp/test/t1/t",
       "category": "Filesystem"
     },
@@ -206,19 +206,19 @@
     },
     {
       "difficulty": "medium",
-      "title": "输入一个 cp 开头的命令，复制 a.txt 到 test 目录下，保持原文件时间，如果原文件存在提示是否覆盖：\n",
+      "title": "输入一个 cp 开头的命令，复制 a.txt 到 test 目录下，保持原文件时间，\n如果原文件存在提示是否覆盖：\n",
       "answer": "cp -ai a.txt test",
       "category": "Filesystem"
     },
     {
       "difficulty": "medium",
-      "title": "使用 cat 命令，把 log2018.log 的文件内容加上行号后输入 log2019.log 这个文件里：\n",
+      "title": "使用 cat 命令，把 log2018.log 的文件内容加上行号后输入 log2019.log \n这个文件里：\n",
       "answer": "cat -n log2018.log > log2019.log",
       "category": "Filesystem"
     },
     {
       "difficulty": "medium",
-      "title": "使用 cat 命令，把 log2018.log 和 log2019.log 的文件内容加上行号（空白行不加）之后将内容附加到 log.log 里：\n",
+      "title": "使用 cat 命令，把 log2018.log 和 log2019.log 的文件内容加上行号\n（空白行不加）之后将内容附加到 log.log 里：\n",
       "answer": "cat -b log2018.log log2019.log >> log.log",
       "category": "Filesystem"
     },
@@ -310,7 +310,7 @@
     },
     {
       "difficulty": "hard",
-      "title": "将文件 file1.txt 与 file2.txt 设为该文件拥有者及其同一用户组者可写入，但其他以外的人则不可写入：\n",
+      "title": "将文件 file1.txt 与 file2.txt 设为该文件拥有者及其同一用户组者可写入，\n但其他以外的人则不可写入：\n",
       "answer": "chmod ug+w,o-w file1.txt file2.txt",
       "category": "Filesystem"
     },
@@ -322,7 +322,7 @@
     },
     {
       "difficulty": "hard",
-      "title": "在打印机foo上使用文件的一个副本打印/etc/motd文件的30份，并且要用邮件通知用户作业完成（使用lp命令）：\n",
+      "title": "在打印机foo上使用文件的一个副本打印/etc/motd文件的30份，\n并且要用邮件通知用户作业完成（使用lp命令）：\n",
       "answer": "lp -c -m -n 30 -d foo /etc/motd",
       "category": "TextProcessing"
     },
@@ -404,7 +404,7 @@
       "category": "Filesystem"
     },
     {
-      "title": "下列命令中，查找目录/etc/acpi及其子目录下包含字符串update的文件，并打印出该字符串所在行的内容的命令是？\n",
+      "title": "下列命令中，查找目录/etc/acpi及其子目录下包含字符串update的文件，\n并打印出该字符串所在行的内容的命令是？\n",
       "choices": [
         "grep -rv update /etc/acpi",
         "grep -v update /etc/acpi",

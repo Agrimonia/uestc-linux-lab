@@ -10,6 +10,6 @@ export function dataView(username: string) {
   terminal.cyan(`${username} 大侠闯荡江湖至今已————\n`);
   terminal(`解决了 ${profile.solved} 道题；\n`);
   terminal(`练习了 ${profile.times} 次；\n`);
-  terminal(`准确率为 ${profile.correctRate}%\n。`);
+  terminal(`准确率为 ${profile.correctRate}%\n`);
   terminal.processExit(0);
 }

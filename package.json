@@ -22,7 +22,7 @@
     "figlet": "^1.2.4",
     "lodash": "^4.17.15",
     "lowdb": "^1.0.0",
-    "terminal-kit": "^1.31.4"
+    "terminal-kit": "^3.0.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",
